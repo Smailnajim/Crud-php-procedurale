@@ -33,7 +33,7 @@
                         <td class="px-4 py-2"><?php echo $row["Email"]; ?></td>
                         <td class="px-4 py-2"><?php echo $row["numero"]; ?></td>
                         <td class="px-4 py-2">
-                            <a href="" class="inline-block mr-2">
+                            <a href="./crud/supprimer.php?deleted=<?php echo $row["id"]; ?>" class="inline-block mr-2">
                                 <button type="button" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-700">Supprimer</button>
                             </a>
                             <a href="" class="inline-block">
